@@ -10,6 +10,7 @@ Needs Discord.py
 - Create an Bot in that Application
 - turn on Privileged Gateway Intents
 - create Bot Token
+- create OAuth2 authentification, generate url and connect the bot to your server
 - Paste Token in the script
 - find server ID and channel id and pate into the script
 - Adjust keyword and response
