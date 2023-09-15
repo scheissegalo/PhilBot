@@ -1,8 +1,8 @@
 # PhilBot
 is a simple Python script that sends a message into a given channel by a tigger word. 
 
-Needs Discord.py
-
+# requirements
+Discord.py https://github.com/Rapptz/discord.py
 
 # How to use?
 - Create a Discord Developer account at https://discord.com/developers
