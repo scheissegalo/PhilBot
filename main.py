@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-TOKEN = 'MTEyMTE3MDM1MDk4MjU4MjI3Mg.GYVbZx.ilARGIxseyVJUmhjqOWy0j5Huc94OtMOa9-O-k'
+TOKEN = 'YOUR_BOT_TOKEN'
 GUILD_ID = 713095073939587113  # Replace with your Guild (Server) ID
 CHANNEL_ID = 713095287568203877  # Replace with your Channel ID
 WORD_TO_CHECK = 'distroyed'  # Replace with the word you want to check for
