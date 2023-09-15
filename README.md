@@ -4,6 +4,8 @@ is a simple Python script that sends a message into a given channel by a tigger 
 # requirements
 Discord.py https://github.com/Rapptz/discord.py
 
+pip install discord.py
+
 # How to use?
 - Create a Discord Developer account at https://discord.com/developers
 - Create an Application
