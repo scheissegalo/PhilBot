@@ -17,3 +17,6 @@ pip install discord.py
 - find server ID and channel id and pate into the script
 - Adjust keyword and response
 - Run the script
+
+# Run the Script
+There are 2 additional files. setup.bat to install requirements and start.bat to start the script on Windows.
