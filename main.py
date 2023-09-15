@@ -1,4 +1,5 @@
 import discord
+import re
 from discord.ext import commands
 
 TOKEN = 'YOUR_BOT_TOKEN'
@@ -20,7 +21,15 @@ async def on_ready():
 async def on_message(message):
     if message.guild.id == GUILD_ID and message.channel.id == CHANNEL_ID:
         if WORD_TO_CHECK in message.content:
-            await message.channel.send("@everyone Attention - Alert!")
+            # Extract timestamp and mapname
+            pattern = r"\[(?P<timestamp>[^\]]+)\]\[(?P<mapname>[^\]]+)\]"
+            match = re.search(pattern, message.content)
+            if match:
+                timestamp = match.group('timestamp')
+                mapname = match.group('mapname')
+                await message.channel.send(f"@everyone !!!Alarm!!! {mapname} at {timestamp}!")
+            else:
+                await message.channel.send("@everyone Alarm!")
 
     await bot.process_commands(message)
 
