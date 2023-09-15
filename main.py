@@ -27,9 +27,9 @@ async def on_message(message):
             if match:
                 timestamp = match.group('timestamp')
                 mapname = match.group('mapname')
-                await message.channel.send(f"@everyone !!!Alarm!!! {mapname} at {timestamp}!")
+                await message.channel.send(f"@everyone !!!Alarm !!! Our Base is under Attack! {mapname} at {timestamp}!")
             else:
-                await message.channel.send("@everyone Alarm!")
+                await message.channel.send("@everyone !!!Alarm !!! Our Base is under Attack!")
 
     await bot.process_commands(message)
 
