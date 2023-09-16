@@ -5,7 +5,7 @@ from discord.ext import commands
 TOKEN = 'YOUR_BOT_TOKEN'
 GUILD_ID = 713095073939587113  # Replace with your Guild (Server) ID
 CHANNEL_ID = 713095287568203877  # Replace with your Channel ID
-WORD_TO_CHECK = 'distroyed'  # Replace with the word you want to check for
+WORD_TO_CHECK = 'destroyed'  # Replace with the word you want to check for
 
 intents = discord.Intents.default()
 intents.message_content = True
